@@ -37,8 +37,8 @@ blueprint:
       default: []
       selector:
         action: {}
-    hold_action:
-      name: Hold Action
+    long_press_action:
+      name: Long Press Action
       description: Action to perform on Long Press.
       default: []
       selector:
