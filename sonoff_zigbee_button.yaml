@@ -14,14 +14,12 @@ blueprint:
             model: WB01
           - manufacturer: eWeLink
             model: SNZB-01P
-          - manufacturer: _TZ3000_ja5osu5g
-            model: TS004F
           multiple: false
     mode:
       name: Automation mode
       description: The automation’s mode configuration option controls what happens when the automation is triggered while the actions
         are still running from a previous trigger (see [Automation modes](https://www.home-assistant.io/docs/automation/modes/)).
-      default: single
+      default: restart
       selector:
         select:
           options:
